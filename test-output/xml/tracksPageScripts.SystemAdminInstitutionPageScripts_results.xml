@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SystemAdminInstitutionPage"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="42.469">
+  <properties />
+  
+  
+            <testcase name="SystemAdmin_institution_tc_1" time="9.052" classname="tracksPageScripts.SystemAdminInstitutionPageScripts" />
+                <testcase name="SystemAdmin_institution_tc_2" time="8.584" classname="tracksPageScripts.SystemAdminInstitutionPageScripts" />
+                <testcase name="SystemAdmin_institution_tc_3" time="13.037" classname="tracksPageScripts.SystemAdminInstitutionPageScripts" />
+                <testcase name="tc_login" time="11.796" classname="tracksPageScripts.SystemAdminInstitutionPageScripts" />
+      
+</testsuite>

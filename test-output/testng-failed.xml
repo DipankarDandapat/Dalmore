@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Platform And System Admin]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="genericLib.LocalScreenshot"/>
+  </listeners>
+  <test thread-count="5" name="PlatformAdminLogin(failed)">
+    <classes>
+      <class name="tracksPageScripts.LoginPageScripts">
+        <methods>
+          <include name="setUp"/>
+          <include name="forgotPassword_tc_4"/>
+          <include name="forgotPassword_tc_3"/>
+          <include name="tearDown"/>
+          <include name="takeShort"/>
+          <include name="loginPage"/>
+          <include name="closePage"/>
+        </methods>
+      </class> <!-- tracksPageScripts.LoginPageScripts -->
+    </classes>
+  </test> <!-- PlatformAdminLogin(failed) -->
+</suite> <!-- Failed suite [Platform And System Admin] -->

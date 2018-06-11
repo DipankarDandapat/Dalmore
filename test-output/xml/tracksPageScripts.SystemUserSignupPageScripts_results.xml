@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SystemAdminSignUpPage"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="25.662">
+  <properties />
+  
+  
+            <testcase name="tc_login" time="10.956" classname="tracksPageScripts.SystemUserSignupPageScripts" />
+                <testcase name="systemAdmin_SignUp_tc_1" time="0.281" classname="tracksPageScripts.SystemUserSignupPageScripts" />
+                <testcase name="systemAdmin_SignUp_tc_3" time="8.280" classname="tracksPageScripts.SystemUserSignupPageScripts" />
+                <testcase name="systemAdmin_SignUp_tc_2" time="6.145" classname="tracksPageScripts.SystemUserSignupPageScripts" />
+      
+</testsuite>

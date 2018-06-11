@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PlatformAdminUserPage"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="55.424">
+  <properties />
+  
+  
+            <testcase name="tc_login" time="11.786" classname="tracksPageScripts.UserPageScripts" />
+                <testcase name="PlatformAdmin_users_tc_3" time="17.115" classname="tracksPageScripts.UserPageScripts" />
+                <testcase name="PlatformAdmin_users_tc_1" time="15.162" classname="tracksPageScripts.UserPageScripts" />
+                <testcase name="PlatformAdmin_users_tc_2" time="11.361" classname="tracksPageScripts.UserPageScripts" />
+      
+</testsuite>

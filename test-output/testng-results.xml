@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="15" passed="13">
+  <reporter-output>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+  </reporter-output>
+  <suite name="Platform And System Admin" duration-ms="57468" started-at="2018-06-11T09:21:24Z" finished-at="2018-06-11T09:22:22Z">
+    <groups>
+    </groups>
+    <test name="PlatformAdminLogin" duration-ms="57468" started-at="2018-06-11T09:21:24Z" finished-at="2018-06-11T09:22:22Z">
+      <class name="tracksPageScripts.LoginPageScripts">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="setUp" is-config="true" duration-ms="203" started-at="2018-06-11T09:21:24Z" finished-at="2018-06-11T09:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="loginPage" is-config="true" duration-ms="5526" started-at="2018-06-11T09:21:24Z" finished-at="2018-06-11T09:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="login_tc_1()[pri:1, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="login_tc_1" duration-ms="5356" started-at="2018-06-11T09:21:30Z" finished-at="2018-06-11T09:21:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_tc_1 -->
+        <test-method status="PASS" signature="takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="takeShort" is-config="true" duration-ms="1076" started-at="2018-06-11T09:21:35Z" finished-at="2018-06-11T09:21:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_tc_1 status=SUCCESS method=LoginPageScripts.login_tc_1()[pri:1, instance:tracksPageScripts.LoginPageScripts@5427c60c] output=Page is loaded]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeShort -->
+        <test-method status="PASS" signature="login_tc_2()[pri:2, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="login_tc_2" duration-ms="2166" started-at="2018-06-11T09:21:36Z" finished-at="2018-06-11T09:21:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_tc_2 -->
+        <test-method status="PASS" signature="takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="takeShort" is-config="true" duration-ms="957" started-at="2018-06-11T09:21:38Z" finished-at="2018-06-11T09:21:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_tc_2 status=SUCCESS method=LoginPageScripts.login_tc_2()[pri:2, instance:tracksPageScripts.LoginPageScripts@5427c60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeShort -->
+        <test-method status="PASS" signature="login_tc_3()[pri:3, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="login_tc_3" duration-ms="1691" started-at="2018-06-11T09:21:39Z" finished-at="2018-06-11T09:21:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_tc_3 -->
+        <test-method status="PASS" signature="takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="takeShort" is-config="true" duration-ms="977" started-at="2018-06-11T09:21:41Z" finished-at="2018-06-11T09:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_tc_3 status=SUCCESS method=LoginPageScripts.login_tc_3()[pri:3, instance:tracksPageScripts.LoginPageScripts@5427c60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeShort -->
+        <test-method status="PASS" signature="login_tc_4()[pri:4, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="login_tc_4" duration-ms="1733" started-at="2018-06-11T09:21:42Z" finished-at="2018-06-11T09:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_tc_4 -->
+        <test-method status="PASS" signature="takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="takeShort" is-config="true" duration-ms="941" started-at="2018-06-11T09:21:44Z" finished-at="2018-06-11T09:21:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_tc_4 status=SUCCESS method=LoginPageScripts.login_tc_4()[pri:4, instance:tracksPageScripts.LoginPageScripts@5427c60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeShort -->
+        <test-method status="PASS" signature="login_tc_5()[pri:5, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="login_tc_5" duration-ms="1385" started-at="2018-06-11T09:21:45Z" finished-at="2018-06-11T09:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_tc_5 -->
+        <test-method status="PASS" signature="takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="takeShort" is-config="true" duration-ms="918" started-at="2018-06-11T09:21:46Z" finished-at="2018-06-11T09:21:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_tc_5 status=SUCCESS method=LoginPageScripts.login_tc_5()[pri:5, instance:tracksPageScripts.LoginPageScripts@5427c60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeShort -->
+        <test-method status="PASS" signature="login_tc_6()[pri:6, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="login_tc_6" duration-ms="1426" started-at="2018-06-11T09:21:47Z" finished-at="2018-06-11T09:21:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_tc_6 -->
+        <test-method status="PASS" signature="takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="takeShort" is-config="true" duration-ms="901" started-at="2018-06-11T09:21:48Z" finished-at="2018-06-11T09:21:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_tc_6 status=SUCCESS method=LoginPageScripts.login_tc_6()[pri:6, instance:tracksPageScripts.LoginPageScripts@5427c60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeShort -->
+        <test-method status="PASS" signature="login_tc_7()[pri:7, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="login_tc_7" duration-ms="1402" started-at="2018-06-11T09:21:49Z" finished-at="2018-06-11T09:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_tc_7 -->
+        <test-method status="PASS" signature="takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="takeShort" is-config="true" duration-ms="913" started-at="2018-06-11T09:21:51Z" finished-at="2018-06-11T09:21:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_tc_7 status=SUCCESS method=LoginPageScripts.login_tc_7()[pri:7, instance:tracksPageScripts.LoginPageScripts@5427c60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeShort -->
+        <test-method status="PASS" signature="login_tc_8()[pri:8, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="login_tc_8" duration-ms="1354" started-at="2018-06-11T09:21:52Z" finished-at="2018-06-11T09:21:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_tc_8 -->
+        <test-method status="PASS" signature="takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="takeShort" is-config="true" duration-ms="908" started-at="2018-06-11T09:21:53Z" finished-at="2018-06-11T09:21:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_tc_8 status=SUCCESS method=LoginPageScripts.login_tc_8()[pri:8, instance:tracksPageScripts.LoginPageScripts@5427c60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeShort -->
+        <test-method status="PASS" signature="login_tc_9()[pri:9, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="login_tc_9" duration-ms="2133" started-at="2018-06-11T09:21:54Z" finished-at="2018-06-11T09:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_tc_9 -->
+        <test-method status="PASS" signature="takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="takeShort" is-config="true" duration-ms="925" started-at="2018-06-11T09:21:56Z" finished-at="2018-06-11T09:21:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_tc_9 status=SUCCESS method=LoginPageScripts.login_tc_9()[pri:9, instance:tracksPageScripts.LoginPageScripts@5427c60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeShort -->
+        <test-method status="PASS" signature="login_tc_10()[pri:10, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="login_tc_10" duration-ms="2162" started-at="2018-06-11T09:21:57Z" finished-at="2018-06-11T09:21:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_tc_10 -->
+        <test-method status="PASS" signature="takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="takeShort" is-config="true" duration-ms="958" started-at="2018-06-11T09:21:59Z" finished-at="2018-06-11T09:22:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_tc_10 status=SUCCESS method=LoginPageScripts.login_tc_10()[pri:10, instance:tracksPageScripts.LoginPageScripts@5427c60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeShort -->
+        <test-method status="PASS" signature="forgotPassword_tc_1()[pri:11, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="forgotPassword_tc_1" duration-ms="2069" started-at="2018-06-11T09:22:00Z" finished-at="2018-06-11T09:22:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- forgotPassword_tc_1 -->
+        <test-method status="PASS" signature="takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="takeShort" is-config="true" duration-ms="956" started-at="2018-06-11T09:22:02Z" finished-at="2018-06-11T09:22:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgotPassword_tc_1 status=SUCCESS method=LoginPageScripts.forgotPassword_tc_1()[pri:11, instance:tracksPageScripts.LoginPageScripts@5427c60c] output=Page is loaded]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeShort -->
+        <test-method status="PASS" signature="forgotPassword_tc_2()[pri:12, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="forgotPassword_tc_2" duration-ms="1824" started-at="2018-06-11T09:22:03Z" finished-at="2018-06-11T09:22:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- forgotPassword_tc_2 -->
+        <test-method status="PASS" signature="takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="takeShort" is-config="true" duration-ms="967" started-at="2018-06-11T09:22:05Z" finished-at="2018-06-11T09:22:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgotPassword_tc_2 status=SUCCESS method=LoginPageScripts.forgotPassword_tc_2()[pri:12, instance:tracksPageScripts.LoginPageScripts@5427c60c] output=Page is loaded]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeShort -->
+        <test-method status="FAIL" signature="forgotPassword_tc_3()[pri:13, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="forgotPassword_tc_3" duration-ms="1817" started-at="2018-06-11T09:22:06Z" finished-at="2018-06-11T09:22:08Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [please enter your email address] but found [Your email is not present in our record.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [please enter your email address] but found [Your email is not present in our record.]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at tracksPageScripts.LoginPageScripts.forgotPassword_tc_3(LoginPageScripts.java:265)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword_tc_3 -->
+        <test-method status="PASS" signature="takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="takeShort" is-config="true" duration-ms="900" started-at="2018-06-11T09:22:09Z" finished-at="2018-06-11T09:22:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgotPassword_tc_3 status=FAILURE method=LoginPageScripts.forgotPassword_tc_3()[pri:13, instance:tracksPageScripts.LoginPageScripts@5427c60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeShort -->
+        <test-method status="FAIL" signature="forgotPassword_tc_4()[pri:14, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="forgotPassword_tc_4" duration-ms="1803" started-at="2018-06-11T09:22:10Z" finished-at="2018-06-11T09:22:11Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [please enter valid email address!] but found [Your email is not present in our record.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [please enter valid email address!] but found [Your email is not present in our record.]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at tracksPageScripts.LoginPageScripts.forgotPassword_tc_4(LoginPageScripts.java:284)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword_tc_4 -->
+        <test-method status="PASS" signature="takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="takeShort" is-config="true" duration-ms="932" started-at="2018-06-11T09:22:12Z" finished-at="2018-06-11T09:22:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgotPassword_tc_4 status=FAILURE method=LoginPageScripts.forgotPassword_tc_4()[pri:14, instance:tracksPageScripts.LoginPageScripts@5427c60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeShort -->
+        <test-method status="PASS" signature="login_tc_11()[pri:15, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="login_tc_11" duration-ms="5857" started-at="2018-06-11T09:22:13Z" finished-at="2018-06-11T09:22:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_tc_11 -->
+        <test-method status="PASS" signature="takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="takeShort" is-config="true" duration-ms="840" started-at="2018-06-11T09:22:19Z" finished-at="2018-06-11T09:22:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_tc_11 status=SUCCESS method=LoginPageScripts.login_tc_11()[pri:15, instance:tracksPageScripts.LoginPageScripts@5427c60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeShort -->
+        <test-method status="PASS" signature="closePage()[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="closePage" is-config="true" duration-ms="547" started-at="2018-06-11T09:22:20Z" finished-at="2018-06-11T09:22:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tracksPageScripts.LoginPageScripts@5427c60c]" name="tearDown" is-config="true" duration-ms="1173" started-at="2018-06-11T09:22:21Z" finished-at="2018-06-11T09:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tracksPageScripts.LoginPageScripts -->
+    </test> <!-- PlatformAdminLogin -->
+  </suite> <!-- Platform And System Admin -->
+</testng-results>

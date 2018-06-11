@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Platform_And_System_Admin">
+              <span class="suite-name border-failed">Platform And System Admin</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Platform_And_System_Admin">
+                    <span>F:\Workspace\zsync\MainTestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Platform_And_System_Admin">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Platform_And_System_Admin">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Platform_And_System_Admin">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Platform_And_System_Admin">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Platform_And_System_Admin">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Platform_And_System_Admin">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 2 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Platform_And_System_Admin" class="hide-methods failed suite-Platform_And_System_Admin"> (hide)</a> <!-- hide-methods failed suite-Platform_And_System_Admin -->
+                      <a href="#" panel-name="suite-Platform_And_System_Admin" class="show-methods failed suite-Platform_And_System_Admin"> (show)</a> <!-- show-methods failed suite-Platform_And_System_Admin -->
+                    </span>
+                    <div class="method-list-content failed suite-Platform_And_System_Admin">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Platform_And_System_Admin" title="tracksPageScripts.LoginPageScripts" hash-for-method="forgotPassword_tc_3">forgotPassword_tc_3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Platform_And_System_Admin" title="tracksPageScripts.LoginPageScripts" hash-for-method="forgotPassword_tc_4">forgotPassword_tc_4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Platform_And_System_Admin -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Platform_And_System_Admin" class="hide-methods passed suite-Platform_And_System_Admin"> (hide)</a> <!-- hide-methods passed suite-Platform_And_System_Admin -->
+                      <a href="#" panel-name="suite-Platform_And_System_Admin" class="show-methods passed suite-Platform_And_System_Admin"> (show)</a> <!-- show-methods passed suite-Platform_And_System_Admin -->
+                    </span>
+                    <div class="method-list-content passed suite-Platform_And_System_Admin">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Platform_And_System_Admin" title="tracksPageScripts.LoginPageScripts" hash-for-method="forgotPassword_tc_1">forgotPassword_tc_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Platform_And_System_Admin" title="tracksPageScripts.LoginPageScripts" hash-for-method="forgotPassword_tc_2">forgotPassword_tc_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Platform_And_System_Admin" title="tracksPageScripts.LoginPageScripts" hash-for-method="login_tc_1">login_tc_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Platform_And_System_Admin" title="tracksPageScripts.LoginPageScripts" hash-for-method="login_tc_10">login_tc_10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Platform_And_System_Admin" title="tracksPageScripts.LoginPageScripts" hash-for-method="login_tc_11">login_tc_11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Platform_And_System_Admin" title="tracksPageScripts.LoginPageScripts" hash-for-method="login_tc_2">login_tc_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Platform_And_System_Admin" title="tracksPageScripts.LoginPageScripts" hash-for-method="login_tc_3">login_tc_3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Platform_And_System_Admin" title="tracksPageScripts.LoginPageScripts" hash-for-method="login_tc_4">login_tc_4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Platform_And_System_Admin" title="tracksPageScripts.LoginPageScripts" hash-for-method="login_tc_5">login_tc_5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Platform_And_System_Admin" title="tracksPageScripts.LoginPageScripts" hash-for-method="login_tc_6">login_tc_6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Platform_And_System_Admin" title="tracksPageScripts.LoginPageScripts" hash-for-method="login_tc_7">login_tc_7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Platform_And_System_Admin" title="tracksPageScripts.LoginPageScripts" hash-for-method="login_tc_8">login_tc_8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Platform_And_System_Admin" title="tracksPageScripts.LoginPageScripts" hash-for-method="login_tc_9">login_tc_9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Platform_And_System_Admin -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Platform_And_System_Admin" class="panel Platform_And_System_Admin">
+          <div class="suite-Platform_And_System_Admin-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tracksPageScripts.LoginPageScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPassword_tc_3">
+                  </a> <!-- forgotPassword_tc_3 -->
+                  <span class="method-name">forgotPassword_tc_3</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [please enter your email address] but found [Your email is not present in our record.]
+	at tracksPageScripts.LoginPageScripts.forgotPassword_tc_3(LoginPageScripts.java:265)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPassword_tc_4">
+                  </a> <!-- forgotPassword_tc_4 -->
+                  <span class="method-name">forgotPassword_tc_4</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [please enter valid email address!] but found [Your email is not present in our record.]
+	at tracksPageScripts.LoginPageScripts.forgotPassword_tc_4(LoginPageScripts.java:284)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Platform_And_System_Admin-class-failed -->
+          <div class="suite-Platform_And_System_Admin-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tracksPageScripts.LoginPageScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPassword_tc_1">
+                  </a> <!-- forgotPassword_tc_1 -->
+                  <span class="method-name">forgotPassword_tc_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPassword_tc_2">
+                  </a> <!-- forgotPassword_tc_2 -->
+                  <span class="method-name">forgotPassword_tc_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_tc_1">
+                  </a> <!-- login_tc_1 -->
+                  <span class="method-name">login_tc_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_tc_10">
+                  </a> <!-- login_tc_10 -->
+                  <span class="method-name">login_tc_10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_tc_11">
+                  </a> <!-- login_tc_11 -->
+                  <span class="method-name">login_tc_11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_tc_2">
+                  </a> <!-- login_tc_2 -->
+                  <span class="method-name">login_tc_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_tc_3">
+                  </a> <!-- login_tc_3 -->
+                  <span class="method-name">login_tc_3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_tc_4">
+                  </a> <!-- login_tc_4 -->
+                  <span class="method-name">login_tc_4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_tc_5">
+                  </a> <!-- login_tc_5 -->
+                  <span class="method-name">login_tc_5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_tc_6">
+                  </a> <!-- login_tc_6 -->
+                  <span class="method-name">login_tc_6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_tc_7">
+                  </a> <!-- login_tc_7 -->
+                  <span class="method-name">login_tc_7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_tc_8">
+                  </a> <!-- login_tc_8 -->
+                  <span class="method-name">login_tc_8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_tc_9">
+                  </a> <!-- login_tc_9 -->
+                  <span class="method-name">login_tc_9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Platform_And_System_Admin-class-passed -->
+        </div> <!-- panel Platform_And_System_Admin -->
+        <div panel-name="test-xml-Platform_And_System_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Workspace\zsync\MainTestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Platform And System Admin&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;genericLib.LocalScreenshot&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PlatformAdminLogin&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tracksPageScripts.LoginPageScripts&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PlatformAdminLogin --&gt;
+&lt;/suite&gt; &lt;!-- Platform And System Admin --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Platform_And_System_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Platform And System Admin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PlatformAdminLogin (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Platform_And_System_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Platform And System Admin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Platform_And_System_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Platform And System Admin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Platform_And_System_Admin');
+function tableData_Platform_And_System_Admin() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login_tc_11')
+data.setCell(0, 2, 'tracksPageScripts.LoginPageScripts')
+data.setCell(0, 3, 5857);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'login_tc_1')
+data.setCell(1, 2, 'tracksPageScripts.LoginPageScripts')
+data.setCell(1, 3, 5356);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'login_tc_2')
+data.setCell(2, 2, 'tracksPageScripts.LoginPageScripts')
+data.setCell(2, 3, 2166);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'login_tc_10')
+data.setCell(3, 2, 'tracksPageScripts.LoginPageScripts')
+data.setCell(3, 3, 2162);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'login_tc_9')
+data.setCell(4, 2, 'tracksPageScripts.LoginPageScripts')
+data.setCell(4, 3, 2133);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'forgotPassword_tc_1')
+data.setCell(5, 2, 'tracksPageScripts.LoginPageScripts')
+data.setCell(5, 3, 2069);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'forgotPassword_tc_2')
+data.setCell(6, 2, 'tracksPageScripts.LoginPageScripts')
+data.setCell(6, 3, 1824);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'forgotPassword_tc_3')
+data.setCell(7, 2, 'tracksPageScripts.LoginPageScripts')
+data.setCell(7, 3, 1817);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'forgotPassword_tc_4')
+data.setCell(8, 2, 'tracksPageScripts.LoginPageScripts')
+data.setCell(8, 3, 1803);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'login_tc_4')
+data.setCell(9, 2, 'tracksPageScripts.LoginPageScripts')
+data.setCell(9, 3, 1733);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'login_tc_3')
+data.setCell(10, 2, 'tracksPageScripts.LoginPageScripts')
+data.setCell(10, 3, 1691);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'login_tc_6')
+data.setCell(11, 2, 'tracksPageScripts.LoginPageScripts')
+data.setCell(11, 3, 1426);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'login_tc_7')
+data.setCell(12, 2, 'tracksPageScripts.LoginPageScripts')
+data.setCell(12, 3, 1402);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'login_tc_5')
+data.setCell(13, 2, 'tracksPageScripts.LoginPageScripts')
+data.setCell(13, 3, 1385);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'login_tc_8')
+data.setCell(14, 2, 'tracksPageScripts.LoginPageScripts')
+data.setCell(14, 3, 1354);
+window.suiteTableData['Platform_And_System_Admin']= { tableData: data, tableDiv: 'times-div-Platform_And_System_Admin'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <div id="times-div-Platform_And_System_Admin">
+              </div> <!-- times-div-Platform_And_System_Admin -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Platform_And_System_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Platform And System Admin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">forgotPassword_tc_2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Page is loaded</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login_tc_1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Page is loaded</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">forgotPassword_tc_1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Page is loaded</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Platform_And_System_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Platform_And_System_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tracksPageScripts.LoginPageScripts</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">loginPage</span>
+                <span class="method-start">203 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login_tc_1</span>
+                <span class="method-start">5745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeShort([TestResult name=login_tc_1 status=SUCCESS method=LoginPageScripts.login_tc_1()[pri:1, instance:trac...)</span>
+                <span class="method-start">11103 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login_tc_2</span>
+                <span class="method-start">12181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeShort([TestResult name=login_tc_2 status=SUCCESS method=LoginPageScripts.login_tc_2()[pri:2, instance:trac...)</span>
+                <span class="method-start">14348 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login_tc_3</span>
+                <span class="method-start">15305 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeShort([TestResult name=login_tc_3 status=SUCCESS method=LoginPageScripts.login_tc_3()[pri:3, instance:trac...)</span>
+                <span class="method-start">16997 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login_tc_4</span>
+                <span class="method-start">17974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeShort([TestResult name=login_tc_4 status=SUCCESS method=LoginPageScripts.login_tc_4()[pri:4, instance:trac...)</span>
+                <span class="method-start">19707 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login_tc_5</span>
+                <span class="method-start">20648 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeShort([TestResult name=login_tc_5 status=SUCCESS method=LoginPageScripts.login_tc_5()[pri:5, instance:trac...)</span>
+                <span class="method-start">22033 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login_tc_6</span>
+                <span class="method-start">22951 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeShort([TestResult name=login_tc_6 status=SUCCESS method=LoginPageScripts.login_tc_6()[pri:6, instance:trac...)</span>
+                <span class="method-start">24378 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login_tc_7</span>
+                <span class="method-start">25279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeShort([TestResult name=login_tc_7 status=SUCCESS method=LoginPageScripts.login_tc_7()[pri:7, instance:trac...)</span>
+                <span class="method-start">26681 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login_tc_8</span>
+                <span class="method-start">27594 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeShort([TestResult name=login_tc_8 status=SUCCESS method=LoginPageScripts.login_tc_8()[pri:8, instance:trac...)</span>
+                <span class="method-start">28948 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login_tc_9</span>
+                <span class="method-start">29856 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeShort([TestResult name=login_tc_9 status=SUCCESS method=LoginPageScripts.login_tc_9()[pri:9, instance:trac...)</span>
+                <span class="method-start">31990 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login_tc_10</span>
+                <span class="method-start">32915 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeShort([TestResult name=login_tc_10 status=SUCCESS method=LoginPageScripts.login_tc_10()[pri:10, instance:t...)</span>
+                <span class="method-start">35078 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">forgotPassword_tc_1</span>
+                <span class="method-start">36036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeShort([TestResult name=forgotPassword_tc_1 status=SUCCESS method=LoginPageScripts.forgotPassword_tc_1()[pr...)</span>
+                <span class="method-start">38106 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">forgotPassword_tc_2</span>
+                <span class="method-start">39063 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeShort([TestResult name=forgotPassword_tc_2 status=SUCCESS method=LoginPageScripts.forgotPassword_tc_2()[pr...)</span>
+                <span class="method-start">40889 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">forgotPassword_tc_3</span>
+                <span class="method-start">41856 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeShort([TestResult name=forgotPassword_tc_3 status=FAILURE method=LoginPageScripts.forgotPassword_tc_3()[pr...)</span>
+                <span class="method-start">44600 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">forgotPassword_tc_4</span>
+                <span class="method-start">45500 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeShort([TestResult name=forgotPassword_tc_4 status=FAILURE method=LoginPageScripts.forgotPassword_tc_4()[pr...)</span>
+                <span class="method-start">48322 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login_tc_11</span>
+                <span class="method-start">49254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeShort([TestResult name=login_tc_11 status=SUCCESS method=LoginPageScripts.login_tc_11()[pri:15, instance:t...)</span>
+                <span class="method-start">55111 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closePage</span>
+                <span class="method-start">55951 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56498 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

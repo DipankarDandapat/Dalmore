@@ -1,0 +1,3116 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               Test case
+               
+               <b>PlatformAdminLogin</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">2</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">13</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">15</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">87%</div>
+            </td>
+            <td style="background-color: #eaf0f7; padding: 3px 3px 3px 0;" align="center"
+                nowrap="true">1m
+               10s
+               
+            </td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"
+                   checked=""></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"
+                   checked=""></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"
+                checked=""></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_3_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_forgotPassword_tc_3_byStatus_failed_FAIL1_details')">forgotPassword_tc_3()</a>
+               </td>
+               <td nowrap="true">08:52:34</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_forgotPassword_tc_3_byStatus_failed_FAIL1_exception')">java.lang.AssertionError: 
+                     expected [please enter your email address] but found [Your email is not present in our record.]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_3_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>forgotPassword_tc_3
+                     </div>
+                     <div>
+                        <b>Signature: </b>forgotPassword_tc_3()[pri:13, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:34
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:37
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_3_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.AssertionError: expected [please enter your email address] but found [Your email is not present in our record.]
+                        at org.testng.Assert.fail(Assert.java:96)
+                        at org.testng.Assert.failNotEquals(Assert.java:776)
+                        at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+                        at org.testng.Assert.assertEquals(Assert.java:118)
+                        at org.testng.Assert.assertEquals(Assert.java:453)
+                        at org.testng.Assert.assertEquals(Assert.java:463)
+                        at tracksPageScripts.LoginPageScripts.forgotPassword_tc_3(LoginPageScripts.java:265)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        at java.lang.reflect.Method.invoke(Unknown Source)
+                        at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+                        at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+                        at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+                        at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+                        at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:648)
+                        at org.testng.TestRunner.run(TestRunner.java:505)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+                        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+                        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+                        at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+                        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+                        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+                        at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+                        at org.testng.TestNG.runSuites(TestNG.java:1049)
+                        at org.testng.TestNG.run(TestNG.java:1017)
+                        at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+                        at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+                        at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_4_byStatus_failed_FAIL2_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_forgotPassword_tc_4_byStatus_failed_FAIL2_details')">forgotPassword_tc_4()</a>
+               </td>
+               <td nowrap="true">08:52:38</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_forgotPassword_tc_4_byStatus_failed_FAIL2_exception')">java.lang.AssertionError: 
+                     expected [please enter valid email address!] but found [Your email is not present in our record.]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_4_byStatus_failed_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>forgotPassword_tc_4
+                     </div>
+                     <div>
+                        <b>Signature: </b>forgotPassword_tc_4()[pri:14, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:38
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:41
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_4_byStatus_failed_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.AssertionError: expected [please enter valid email address!] but found [Your email is not present in our record.]
+                        at org.testng.Assert.fail(Assert.java:96)
+                        at org.testng.Assert.failNotEquals(Assert.java:776)
+                        at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+                        at org.testng.Assert.assertEquals(Assert.java:118)
+                        at org.testng.Assert.assertEquals(Assert.java:453)
+                        at org.testng.Assert.assertEquals(Assert.java:463)
+                        at tracksPageScripts.LoginPageScripts.forgotPassword_tc_4(LoginPageScripts.java:284)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        at java.lang.reflect.Method.invoke(Unknown Source)
+                        at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+                        at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+                        at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+                        at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+                        at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:648)
+                        at org.testng.TestRunner.run(TestRunner.java:505)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+                        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+                        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+                        at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+                        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+                        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+                        at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+                        at org.testng.TestNG.runSuites(TestNG.java:1049)
+                        at org.testng.TestNG.run(TestNG.java:1017)
+                        at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+                        at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+                        at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="tracksPageScripts.LoginPageScripts_loginPage_byStatus_passed_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_loginPage_byStatus_passed_PASS1_details')">loginPage()</a>
+               </td>
+               <td nowrap="true">08:51:43</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_loginPage_byStatus_passed_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>loginPage
+                     </div>
+                     <div>
+                        <b>Signature: </b>loginPage()[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:51:43
+                     </div>
+                     <div>
+                        <b>End time: </b>08:51:49
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_1_byStatus_passed_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_1_byStatus_passed_PASS2_details')">login_tc_1()</a>
+               </td>
+               <td nowrap="true">08:51:49</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_1_byStatus_passed_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_1
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_1()[pri:1, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:51:49
+                     </div>
+                     <div>
+                        <b>End time: </b>08:51:58
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS3_details')">takeShort([TestResult name=login_tc_1 status=SUCCESS method=LoginPageScripts.login_tc_1()[pri:1, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output=Page is loaded])
+                  </a>
+               </td>
+               <td nowrap="true">08:51:58</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_1 status=SUCCESS method=LoginPageScripts.login_tc_1()[pri:1, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output=Page is loaded]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:51:58
+                     </div>
+                     <div>
+                        <b>End time: </b>08:51:59
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_2_byStatus_passed_PASS4_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_2_byStatus_passed_PASS4_details')">login_tc_2()</a>
+               </td>
+               <td nowrap="true">08:51:59</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_2_byStatus_passed_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_2
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_2()[pri:2, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:51:59
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:02
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS5_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS5_details')">takeShort([TestResult name=login_tc_2 status=SUCCESS method=LoginPageScripts.login_tc_2()[pri:2, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:02</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_2 status=SUCCESS method=LoginPageScripts.login_tc_2()[pri:2, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:02
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_3_byStatus_passed_PASS6_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_3_byStatus_passed_PASS6_details')">login_tc_3()</a>
+               </td>
+               <td nowrap="true">08:52:03</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_3_byStatus_passed_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_3
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_3()[pri:3, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:03
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:05
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS7_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS7_details')">takeShort([TestResult name=login_tc_3 status=SUCCESS method=LoginPageScripts.login_tc_3()[pri:3, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:05</td>
+               <td nowrap="true" align="right">908 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_3 status=SUCCESS method=LoginPageScripts.login_tc_3()[pri:3, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:05
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:06
+                     </div>
+                     <div>
+                        <b>Duration: </b>908 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_4_byStatus_passed_PASS8_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_4_byStatus_passed_PASS8_details')">login_tc_4()</a>
+               </td>
+               <td nowrap="true">08:52:06</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_4_byStatus_passed_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_4
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_4()[pri:4, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:06
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:07
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS9_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS9_details')">takeShort([TestResult name=login_tc_4 status=SUCCESS method=LoginPageScripts.login_tc_4()[pri:4, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:07</td>
+               <td nowrap="true" align="right">898 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS9_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_4 status=SUCCESS method=LoginPageScripts.login_tc_4()[pri:4, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:07
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:08
+                     </div>
+                     <div>
+                        <b>Duration: </b>898 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_5_byStatus_passed_PASS10_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_5_byStatus_passed_PASS10_details')">login_tc_5()</a>
+               </td>
+               <td nowrap="true">08:52:08</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_5_byStatus_passed_PASS10_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_5
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_5()[pri:5, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:08
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:10
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS11_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS11_details')">takeShort([TestResult name=login_tc_5 status=SUCCESS method=LoginPageScripts.login_tc_5()[pri:5, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:10</td>
+               <td nowrap="true" align="right">902 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS11_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_5 status=SUCCESS method=LoginPageScripts.login_tc_5()[pri:5, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:10
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:11
+                     </div>
+                     <div>
+                        <b>Duration: </b>902 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_6_byStatus_passed_PASS12_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_6_byStatus_passed_PASS12_details')">login_tc_6()</a>
+               </td>
+               <td nowrap="true">08:52:11</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_6_byStatus_passed_PASS12_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_6
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_6()[pri:6, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:11
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:13
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS13_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS13_details')">takeShort([TestResult name=login_tc_6 status=SUCCESS method=LoginPageScripts.login_tc_6()[pri:6, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:13</td>
+               <td nowrap="true" align="right">920 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS13_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_6 status=SUCCESS method=LoginPageScripts.login_tc_6()[pri:6, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:13
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:13
+                     </div>
+                     <div>
+                        <b>Duration: </b>920 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_7_byStatus_passed_PASS14_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_7_byStatus_passed_PASS14_details')">login_tc_7()</a>
+               </td>
+               <td nowrap="true">08:52:13</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_7_byStatus_passed_PASS14_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_7
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_7()[pri:7, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:13
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:15
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS15_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS15_details')">takeShort([TestResult name=login_tc_7 status=SUCCESS method=LoginPageScripts.login_tc_7()[pri:7, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:15</td>
+               <td nowrap="true" align="right">861 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS15_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_7 status=SUCCESS method=LoginPageScripts.login_tc_7()[pri:7, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:15
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:16
+                     </div>
+                     <div>
+                        <b>Duration: </b>861 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_8_byStatus_passed_PASS16_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_8_byStatus_passed_PASS16_details')">login_tc_8()</a>
+               </td>
+               <td nowrap="true">08:52:16</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_8_byStatus_passed_PASS16_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_8
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_8()[pri:8, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:16
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:17
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS17_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS17_details')">takeShort([TestResult name=login_tc_8 status=SUCCESS method=LoginPageScripts.login_tc_8()[pri:8, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:17</td>
+               <td nowrap="true" align="right">972 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS17_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_8 status=SUCCESS method=LoginPageScripts.login_tc_8()[pri:8, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:17
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:18
+                     </div>
+                     <div>
+                        <b>Duration: </b>972 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_9_byStatus_passed_PASS18_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_9_byStatus_passed_PASS18_details')">login_tc_9()</a>
+               </td>
+               <td nowrap="true">08:52:18</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_9_byStatus_passed_PASS18_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_9
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_9()[pri:9, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:18
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:21
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS19_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS19_details')">takeShort([TestResult name=login_tc_9 status=SUCCESS method=LoginPageScripts.login_tc_9()[pri:9, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:21</td>
+               <td nowrap="true" align="right">891 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS19_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_9 status=SUCCESS method=LoginPageScripts.login_tc_9()[pri:9, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:21
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:22
+                     </div>
+                     <div>
+                        <b>Duration: </b>891 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_10_byStatus_passed_PASS20_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_10_byStatus_passed_PASS20_details')">login_tc_10()</a>
+               </td>
+               <td nowrap="true">08:52:22</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_10_byStatus_passed_PASS20_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_10
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_10()[pri:10, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:22
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:25
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS21_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS21_details')">takeShort([TestResult name=login_tc_10 status=SUCCESS method=LoginPageScripts.login_tc_10()[pri:10, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:25</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS21_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_10 status=SUCCESS method=LoginPageScripts.login_tc_10()[pri:10, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:25
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:26
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_1_byStatus_passed_PASS22_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_forgotPassword_tc_1_byStatus_passed_PASS22_details')">forgotPassword_tc_1()</a>
+               </td>
+               <td nowrap="true">08:52:26</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_1_byStatus_passed_PASS22_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>forgotPassword_tc_1
+                     </div>
+                     <div>
+                        <b>Signature: </b>forgotPassword_tc_1()[pri:11, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:26
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:29
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS23_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS23_details')">takeShort([TestResult name=forgotPassword_tc_1 status=SUCCESS method=LoginPageScripts.forgotPassword_tc_1()[pri:11, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output=Page is loaded])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:29</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS23_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=forgotPassword_tc_1 status=SUCCESS method=LoginPageScripts.forgotPassword_tc_1()[pri:11, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output=Page is loaded]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:29
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_2_byStatus_passed_PASS24_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_forgotPassword_tc_2_byStatus_passed_PASS24_details')">forgotPassword_tc_2()</a>
+               </td>
+               <td nowrap="true">08:52:31</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_2_byStatus_passed_PASS24_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>forgotPassword_tc_2
+                     </div>
+                     <div>
+                        <b>Signature: </b>forgotPassword_tc_2()[pri:12, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:31
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:33
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS25_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS25_details')">takeShort([TestResult name=forgotPassword_tc_2 status=SUCCESS method=LoginPageScripts.forgotPassword_tc_2()[pri:12, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output=Page is loaded])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:33</td>
+               <td nowrap="true" align="right">901 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS25_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=forgotPassword_tc_2 status=SUCCESS method=LoginPageScripts.forgotPassword_tc_2()[pri:12, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output=Page is loaded]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:33
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:34
+                     </div>
+                     <div>
+                        <b>Duration: </b>901 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS26_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS26_details')">takeShort([TestResult name=forgotPassword_tc_3 status=FAILURE method=LoginPageScripts.forgotPassword_tc_3()[pri:13, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output=&lt;a href=file:///F:\Workspace\zsync\screenshots\LatestResults\LoginPageScripts\forgotPassword_tc_3.png&gt; &lt;img width='700'
+                     height='500' src=file:///F:\Workspace\zsync\screenshots\LatestResults\LoginPageScripts\forgotPassword_tc_3.png&gt; &lt;/a&gt;])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:38</td>
+               <td nowrap="true" align="right">875 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS26_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=forgotPassword_tc_3 status=FAILURE method=LoginPageScripts.forgotPassword_tc_3()[pri:13, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output=&lt;a href=file:///F:\Workspace\zsync\screenshots\LatestResults\LoginPageScripts\forgotPassword_tc_3.png&gt; &lt;img width='700'
+                        height='500' src=file:///F:\Workspace\zsync\screenshots\LatestResults\LoginPageScripts\forgotPassword_tc_3.png&gt; &lt;/a&gt;]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:38
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:38
+                     </div>
+                     <div>
+                        <b>Duration: </b>875 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS27_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS27_details')">takeShort([TestResult name=forgotPassword_tc_4 status=FAILURE method=LoginPageScripts.forgotPassword_tc_4()[pri:14, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output=&lt;a href=file:///F:\Workspace\zsync\screenshots\LatestResults\LoginPageScripts\forgotPassword_tc_4.png&gt; &lt;img width='700'
+                     height='500' src=file:///F:\Workspace\zsync\screenshots\LatestResults\LoginPageScripts\forgotPassword_tc_4.png&gt; &lt;/a&gt;])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:42</td>
+               <td nowrap="true" align="right">890 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS27_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=forgotPassword_tc_4 status=FAILURE method=LoginPageScripts.forgotPassword_tc_4()[pri:14, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output=&lt;a href=file:///F:\Workspace\zsync\screenshots\LatestResults\LoginPageScripts\forgotPassword_tc_4.png&gt; &lt;img width='700'
+                        height='500' src=file:///F:\Workspace\zsync\screenshots\LatestResults\LoginPageScripts\forgotPassword_tc_4.png&gt; &lt;/a&gt;]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:42
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:43
+                     </div>
+                     <div>
+                        <b>Duration: </b>890 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_11_byStatus_passed_PASS28_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_11_byStatus_passed_PASS28_details')">login_tc_11()</a>
+               </td>
+               <td nowrap="true">08:52:43</td>
+               <td nowrap="true" align="right">6s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_11_byStatus_passed_PASS28_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_11
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_11()[pri:15, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:43
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:50
+                     </div>
+                     <div>
+                        <b>Duration: </b>6s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS29_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS29_details')">takeShort([TestResult name=login_tc_11 status=SUCCESS method=LoginPageScripts.login_tc_11()[pri:15, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:50</td>
+               <td nowrap="true" align="right">805 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byStatus_passed_PASS29_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_11 status=SUCCESS method=LoginPageScripts.login_tc_11()[pri:15, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:50
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:50
+                     </div>
+                     <div>
+                        <b>Duration: </b>805 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_closePage_byStatus_passed_PASS30_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_closePage_byStatus_passed_PASS30_details')">closePage()</a>
+               </td>
+               <td nowrap="true">08:52:50</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_closePage_byStatus_passed_PASS30_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>closePage
+                     </div>
+                     <div>
+                        <b>Signature: </b>closePage()[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:50
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:53
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_tearDown_byStatus_passed_PASS31_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_tearDown_byStatus_passed_PASS31_details')">tearDown()</a>
+               </td>
+               <td nowrap="true">08:52:53</td>
+               <td nowrap="true" align="right">834 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_tearDown_byStatus_passed_PASS31_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>tearDown
+                     </div>
+                     <div>
+                        <b>Signature: </b>tearDown()[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:53
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:54
+                     </div>
+                     <div>
+                        <b>Duration: </b>834 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">tracksPageScripts.LoginPageScripts</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="tracksPageScripts.LoginPageScripts_loginPage_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_loginPage_byClass_PASS1_details')">loginPage()</a>
+               </td>
+               <td nowrap="true">08:51:43</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_loginPage_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>loginPage
+                     </div>
+                     <div>
+                        <b>Signature: </b>loginPage()[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:51:43
+                     </div>
+                     <div>
+                        <b>End time: </b>08:51:49
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_1_byClass_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_1_byClass_PASS2_details')">login_tc_1()</a>
+               </td>
+               <td nowrap="true">08:51:49</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_1_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_1
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_1()[pri:1, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:51:49
+                     </div>
+                     <div>
+                        <b>End time: </b>08:51:58
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS3_details')">takeShort([TestResult name=login_tc_1 status=SUCCESS method=LoginPageScripts.login_tc_1()[pri:1, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output=Page is loaded])
+                  </a>
+               </td>
+               <td nowrap="true">08:51:58</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_1 status=SUCCESS method=LoginPageScripts.login_tc_1()[pri:1, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output=Page is loaded]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:51:58
+                     </div>
+                     <div>
+                        <b>End time: </b>08:51:59
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_2_byClass_PASS4_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_2_byClass_PASS4_details')">login_tc_2()</a>
+               </td>
+               <td nowrap="true">08:51:59</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_2_byClass_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_2
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_2()[pri:2, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:51:59
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:02
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS5_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS5_details')">takeShort([TestResult name=login_tc_2 status=SUCCESS method=LoginPageScripts.login_tc_2()[pri:2, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:02</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_2 status=SUCCESS method=LoginPageScripts.login_tc_2()[pri:2, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:02
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_3_byClass_PASS6_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_3_byClass_PASS6_details')">login_tc_3()</a>
+               </td>
+               <td nowrap="true">08:52:03</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_3_byClass_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_3
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_3()[pri:3, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:03
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:05
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS7_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS7_details')">takeShort([TestResult name=login_tc_3 status=SUCCESS method=LoginPageScripts.login_tc_3()[pri:3, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:05</td>
+               <td nowrap="true" align="right">908 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_3 status=SUCCESS method=LoginPageScripts.login_tc_3()[pri:3, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:05
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:06
+                     </div>
+                     <div>
+                        <b>Duration: </b>908 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_4_byClass_PASS8_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_4_byClass_PASS8_details')">login_tc_4()</a>
+               </td>
+               <td nowrap="true">08:52:06</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_4_byClass_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_4
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_4()[pri:4, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:06
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:07
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS9_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS9_details')">takeShort([TestResult name=login_tc_4 status=SUCCESS method=LoginPageScripts.login_tc_4()[pri:4, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:07</td>
+               <td nowrap="true" align="right">898 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS9_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_4 status=SUCCESS method=LoginPageScripts.login_tc_4()[pri:4, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:07
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:08
+                     </div>
+                     <div>
+                        <b>Duration: </b>898 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_5_byClass_PASS10_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_5_byClass_PASS10_details')">login_tc_5()</a>
+               </td>
+               <td nowrap="true">08:52:08</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_5_byClass_PASS10_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_5
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_5()[pri:5, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:08
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:10
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS11_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS11_details')">takeShort([TestResult name=login_tc_5 status=SUCCESS method=LoginPageScripts.login_tc_5()[pri:5, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:10</td>
+               <td nowrap="true" align="right">902 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS11_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_5 status=SUCCESS method=LoginPageScripts.login_tc_5()[pri:5, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:10
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:11
+                     </div>
+                     <div>
+                        <b>Duration: </b>902 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_6_byClass_PASS12_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_6_byClass_PASS12_details')">login_tc_6()</a>
+               </td>
+               <td nowrap="true">08:52:11</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_6_byClass_PASS12_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_6
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_6()[pri:6, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:11
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:13
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS13_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS13_details')">takeShort([TestResult name=login_tc_6 status=SUCCESS method=LoginPageScripts.login_tc_6()[pri:6, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:13</td>
+               <td nowrap="true" align="right">920 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS13_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_6 status=SUCCESS method=LoginPageScripts.login_tc_6()[pri:6, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:13
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:13
+                     </div>
+                     <div>
+                        <b>Duration: </b>920 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_7_byClass_PASS14_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_7_byClass_PASS14_details')">login_tc_7()</a>
+               </td>
+               <td nowrap="true">08:52:13</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_7_byClass_PASS14_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_7
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_7()[pri:7, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:13
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:15
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS15_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS15_details')">takeShort([TestResult name=login_tc_7 status=SUCCESS method=LoginPageScripts.login_tc_7()[pri:7, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:15</td>
+               <td nowrap="true" align="right">861 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS15_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_7 status=SUCCESS method=LoginPageScripts.login_tc_7()[pri:7, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:15
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:16
+                     </div>
+                     <div>
+                        <b>Duration: </b>861 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_8_byClass_PASS16_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_8_byClass_PASS16_details')">login_tc_8()</a>
+               </td>
+               <td nowrap="true">08:52:16</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_8_byClass_PASS16_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_8
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_8()[pri:8, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:16
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:17
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS17_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS17_details')">takeShort([TestResult name=login_tc_8 status=SUCCESS method=LoginPageScripts.login_tc_8()[pri:8, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:17</td>
+               <td nowrap="true" align="right">972 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS17_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_8 status=SUCCESS method=LoginPageScripts.login_tc_8()[pri:8, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:17
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:18
+                     </div>
+                     <div>
+                        <b>Duration: </b>972 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_9_byClass_PASS18_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_9_byClass_PASS18_details')">login_tc_9()</a>
+               </td>
+               <td nowrap="true">08:52:18</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_9_byClass_PASS18_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_9
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_9()[pri:9, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:18
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:21
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS19_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS19_details')">takeShort([TestResult name=login_tc_9 status=SUCCESS method=LoginPageScripts.login_tc_9()[pri:9, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:21</td>
+               <td nowrap="true" align="right">891 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS19_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_9 status=SUCCESS method=LoginPageScripts.login_tc_9()[pri:9, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:21
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:22
+                     </div>
+                     <div>
+                        <b>Duration: </b>891 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_10_byClass_PASS20_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_10_byClass_PASS20_details')">login_tc_10()</a>
+               </td>
+               <td nowrap="true">08:52:22</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_10_byClass_PASS20_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_10
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_10()[pri:10, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:22
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:25
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS21_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS21_details')">takeShort([TestResult name=login_tc_10 status=SUCCESS method=LoginPageScripts.login_tc_10()[pri:10, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:25</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS21_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_10 status=SUCCESS method=LoginPageScripts.login_tc_10()[pri:10, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:25
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:26
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_1_byClass_PASS22_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_forgotPassword_tc_1_byClass_PASS22_details')">forgotPassword_tc_1()</a>
+               </td>
+               <td nowrap="true">08:52:26</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_1_byClass_PASS22_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>forgotPassword_tc_1
+                     </div>
+                     <div>
+                        <b>Signature: </b>forgotPassword_tc_1()[pri:11, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:26
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:29
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS23_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS23_details')">takeShort([TestResult name=forgotPassword_tc_1 status=SUCCESS method=LoginPageScripts.forgotPassword_tc_1()[pri:11, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output=Page is loaded])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:29</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS23_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=forgotPassword_tc_1 status=SUCCESS method=LoginPageScripts.forgotPassword_tc_1()[pri:11, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output=Page is loaded]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:29
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_2_byClass_PASS24_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_forgotPassword_tc_2_byClass_PASS24_details')">forgotPassword_tc_2()</a>
+               </td>
+               <td nowrap="true">08:52:31</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_2_byClass_PASS24_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>forgotPassword_tc_2
+                     </div>
+                     <div>
+                        <b>Signature: </b>forgotPassword_tc_2()[pri:12, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:31
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:33
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS25_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS25_details')">takeShort([TestResult name=forgotPassword_tc_2 status=SUCCESS method=LoginPageScripts.forgotPassword_tc_2()[pri:12, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output=Page is loaded])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:33</td>
+               <td nowrap="true" align="right">901 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS25_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=forgotPassword_tc_2 status=SUCCESS method=LoginPageScripts.forgotPassword_tc_2()[pri:12, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output=Page is loaded]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:33
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:34
+                     </div>
+                     <div>
+                        <b>Duration: </b>901 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_3_byClass_FAIL26_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_forgotPassword_tc_3_byClass_FAIL26_details')">forgotPassword_tc_3()</a>
+               </td>
+               <td nowrap="true">08:52:34</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_forgotPassword_tc_3_byClass_FAIL26_exception')">java.lang.AssertionError: 
+                     expected [please enter your email address] but found [Your email is not present in our record.]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_3_byClass_FAIL26_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>forgotPassword_tc_3
+                     </div>
+                     <div>
+                        <b>Signature: </b>forgotPassword_tc_3()[pri:13, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:34
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:37
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_3_byClass_FAIL26_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.AssertionError: expected [please enter your email address] but found [Your email is not present in our record.]
+                        at org.testng.Assert.fail(Assert.java:96)
+                        at org.testng.Assert.failNotEquals(Assert.java:776)
+                        at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+                        at org.testng.Assert.assertEquals(Assert.java:118)
+                        at org.testng.Assert.assertEquals(Assert.java:453)
+                        at org.testng.Assert.assertEquals(Assert.java:463)
+                        at tracksPageScripts.LoginPageScripts.forgotPassword_tc_3(LoginPageScripts.java:265)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        at java.lang.reflect.Method.invoke(Unknown Source)
+                        at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+                        at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+                        at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+                        at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+                        at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:648)
+                        at org.testng.TestRunner.run(TestRunner.java:505)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+                        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+                        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+                        at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+                        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+                        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+                        at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+                        at org.testng.TestNG.runSuites(TestNG.java:1049)
+                        at org.testng.TestNG.run(TestNG.java:1017)
+                        at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+                        at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+                        at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS27_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS27_details')">takeShort([TestResult name=forgotPassword_tc_3 status=FAILURE method=LoginPageScripts.forgotPassword_tc_3()[pri:13, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output=&lt;a href=file:///F:\Workspace\zsync\screenshots\LatestResults\LoginPageScripts\forgotPassword_tc_3.png&gt; &lt;img width='700'
+                     height='500' src=file:///F:\Workspace\zsync\screenshots\LatestResults\LoginPageScripts\forgotPassword_tc_3.png&gt; &lt;/a&gt;])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:38</td>
+               <td nowrap="true" align="right">875 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS27_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=forgotPassword_tc_3 status=FAILURE method=LoginPageScripts.forgotPassword_tc_3()[pri:13, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output=&lt;a href=file:///F:\Workspace\zsync\screenshots\LatestResults\LoginPageScripts\forgotPassword_tc_3.png&gt; &lt;img width='700'
+                        height='500' src=file:///F:\Workspace\zsync\screenshots\LatestResults\LoginPageScripts\forgotPassword_tc_3.png&gt; &lt;/a&gt;]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:38
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:38
+                     </div>
+                     <div>
+                        <b>Duration: </b>875 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_4_byClass_FAIL28_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_forgotPassword_tc_4_byClass_FAIL28_details')">forgotPassword_tc_4()</a>
+               </td>
+               <td nowrap="true">08:52:38</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_forgotPassword_tc_4_byClass_FAIL28_exception')">java.lang.AssertionError: 
+                     expected [please enter valid email address!] but found [Your email is not present in our record.]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_4_byClass_FAIL28_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>forgotPassword_tc_4
+                     </div>
+                     <div>
+                        <b>Signature: </b>forgotPassword_tc_4()[pri:14, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:38
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:41
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_forgotPassword_tc_4_byClass_FAIL28_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.AssertionError: expected [please enter valid email address!] but found [Your email is not present in our record.]
+                        at org.testng.Assert.fail(Assert.java:96)
+                        at org.testng.Assert.failNotEquals(Assert.java:776)
+                        at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+                        at org.testng.Assert.assertEquals(Assert.java:118)
+                        at org.testng.Assert.assertEquals(Assert.java:453)
+                        at org.testng.Assert.assertEquals(Assert.java:463)
+                        at tracksPageScripts.LoginPageScripts.forgotPassword_tc_4(LoginPageScripts.java:284)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        at java.lang.reflect.Method.invoke(Unknown Source)
+                        at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+                        at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+                        at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+                        at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+                        at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:648)
+                        at org.testng.TestRunner.run(TestRunner.java:505)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+                        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+                        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+                        at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+                        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+                        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+                        at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+                        at org.testng.TestNG.runSuites(TestNG.java:1049)
+                        at org.testng.TestNG.run(TestNG.java:1017)
+                        at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+                        at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+                        at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS29_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS29_details')">takeShort([TestResult name=forgotPassword_tc_4 status=FAILURE method=LoginPageScripts.forgotPassword_tc_4()[pri:14, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output=&lt;a href=file:///F:\Workspace\zsync\screenshots\LatestResults\LoginPageScripts\forgotPassword_tc_4.png&gt; &lt;img width='700'
+                     height='500' src=file:///F:\Workspace\zsync\screenshots\LatestResults\LoginPageScripts\forgotPassword_tc_4.png&gt; &lt;/a&gt;])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:42</td>
+               <td nowrap="true" align="right">890 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS29_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=forgotPassword_tc_4 status=FAILURE method=LoginPageScripts.forgotPassword_tc_4()[pri:14, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output=&lt;a href=file:///F:\Workspace\zsync\screenshots\LatestResults\LoginPageScripts\forgotPassword_tc_4.png&gt; &lt;img width='700'
+                        height='500' src=file:///F:\Workspace\zsync\screenshots\LatestResults\LoginPageScripts\forgotPassword_tc_4.png&gt; &lt;/a&gt;]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:42
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:43
+                     </div>
+                     <div>
+                        <b>Duration: </b>890 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_login_tc_11_byClass_PASS30_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_login_tc_11_byClass_PASS30_details')">login_tc_11()</a>
+               </td>
+               <td nowrap="true">08:52:43</td>
+               <td nowrap="true" align="right">6s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_login_tc_11_byClass_PASS30_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login_tc_11
+                     </div>
+                     <div>
+                        <b>Signature: </b>login_tc_11()[pri:15, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:43
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:50
+                     </div>
+                     <div>
+                        <b>Duration: </b>6s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS31_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS31_details')">takeShort([TestResult name=login_tc_11 status=SUCCESS method=LoginPageScripts.login_tc_11()[pri:15, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     output={null}])
+                  </a>
+               </td>
+               <td nowrap="true">08:52:50</td>
+               <td nowrap="true" align="right">805 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_takeShort_byClass_PASS31_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>takeShort
+                     </div>
+                     <div>
+                        <b>Signature: </b>takeShort(org.testng.ITestResult)[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        [TestResult name=login_tc_11 status=SUCCESS method=LoginPageScripts.login_tc_11()[pri:15, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                        output={null}]
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:50
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:50
+                     </div>
+                     <div>
+                        <b>Duration: </b>805 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_closePage_byClass_PASS32_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_closePage_byClass_PASS32_details')">closePage()</a>
+               </td>
+               <td nowrap="true">08:52:50</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_closePage_byClass_PASS32_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>closePage
+                     </div>
+                     <div>
+                        <b>Signature: </b>closePage()[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:50
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:53
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tracksPageScripts.LoginPageScripts_tearDown_byClass_PASS33_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tracksPageScripts.LoginPageScripts_tearDown_byClass_PASS33_details')">tearDown()</a>
+               </td>
+               <td nowrap="true">08:52:53</td>
+               <td nowrap="true" align="right">834 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tracksPageScripts.LoginPageScripts_tearDown_byClass_PASS33_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>tearDown
+                     </div>
+                     <div>
+                        <b>Signature: </b>tearDown()[pri:0, instance:tracksPageScripts.LoginPageScripts@1e4a7dd4]
+                     </div>
+                     <div>
+                        <b>Start time: </b>08:52:53
+                     </div>
+                     <div>
+                        <b>End time: </b>08:52:54
+                     </div>
+                     <div>
+                        <b>Duration: </b>834 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>

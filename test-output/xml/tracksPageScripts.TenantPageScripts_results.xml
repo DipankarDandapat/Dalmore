@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PlatformAdminTenantPage"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="37.549">
+  <properties />
+  
+  
+            <testcase name="PlatformAdmin_Tenant_tc_3" time="11.023" classname="tracksPageScripts.TenantPageScripts" />
+                <testcase name="PlatformAdmin_Tenant_tc_1" time="8.844" classname="tracksPageScripts.TenantPageScripts" />
+                <testcase name="PlatformAdmin_Tenant_tc_2" time="6.706" classname="tracksPageScripts.TenantPageScripts" />
+                <testcase name="PlatformAdminlogin" time="10.976" classname="tracksPageScripts.TenantPageScripts" />
+      
+</testsuite>

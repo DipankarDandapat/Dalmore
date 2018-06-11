@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Platform And System Admin">
+
+<listeners>
+<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+
+<!-- ScreenShort take when test case pass/fail -->
+<listener class-name="genericLib.LocalScreenshot"/>
+</listeners>
+
+
+  <test name="PlatformAdminLogin">
+  
+    <classes>
+     <class name="tracksPageScripts.LoginPageScripts"/>
+    </classes>
+  
+  </test>
+  
+  <test name="PlatformAdminTenantPage">
+     <classes>
+       <class name="tracksPageScripts.TenantPageScripts"/>
+     </classes>
+   </test>
+   
+   <test name="PlatformAdminInstitutionPage">
+     <classes>
+       <class name="tracksPageScripts.InstitutionPageScripts"/>
+     </classes>
+   </test>
+   
+   <test name="PlatformAdminUserPage">
+     <classes>
+       <class name="tracksPageScripts.UserPageScripts"/>
+     </classes>
+   </test>
+   
+   <test name="PlatformAdminConfigPage">
+     <classes>
+       <class name="tracksPageScripts.ConfigPageScripts"/>
+     </classes>
+   </test>
+   
+   <test name="PlatformAdminRegisterPage">
+     <classes>
+       <class name="tracksPageScripts.RegisterPageScripts"/>
+     </classes>
+   </test>
+   
+   
+   <test name="SystemAdminSignUpPage">
+     <classes>
+       <class name="tracksPageScripts.SystemUserSignupPageScripts"/>
+     </classes>
+   </test>
+   
+   
+   <test name="SystemAdminInstitutionPage">
+     <classes>
+       <class name="tracksPageScripts.SystemAdminInstitutionPageScripts"/>
+     </classes>
+   </test>
+   
+   <test name="SystemAdminUserPage">
+     <classes>
+       <class name="tracksPageScripts.SystemAdminUserPageScripts"/>
+     </classes>
+   </test>
+   
+   <test name="SystemAdminCoursePage">
+     <classes>
+       <class name="tracksPageScripts.SystemAdminCoursePageScripts"/>
+     </classes>
+   </test>
+   
+    <test name="SystemAdminTopicPage">
+     <classes>
+       <class name="tracksPageScripts.SystemAdminTopicPageScripts"/>
+     </classes>
+   </test>
+  
+   
+   
+  <!-- Test -->
+</suite> <!-- Suite -->

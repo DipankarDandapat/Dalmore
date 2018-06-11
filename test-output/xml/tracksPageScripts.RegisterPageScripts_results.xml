@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PlatformAdminRegisterPage"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.885">
+  <properties />
+  
+  
+            <testcase name="register_tc_3" time="0.047" classname="tracksPageScripts.RegisterPageScripts" />
+                <testcase name="register_tc_1" time="4.482" classname="tracksPageScripts.RegisterPageScripts" />
+                <testcase name="register_tc_2" time="4.356" classname="tracksPageScripts.RegisterPageScripts" />
+      
+</testsuite>

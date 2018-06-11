@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PlatformAdminConfigPage"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="16.419">
+  <properties />
+  
+  
+            <testcase name="PlatformAdmin_Config_tc_1" time="3.923" classname="tracksPageScripts.ConfigPageScripts" />
+                <testcase name="PlatformAdminlogin" time="12.496" classname="tracksPageScripts.ConfigPageScripts" />
+      
+</testsuite>
